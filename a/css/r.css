@@ -1,0 +1,45 @@
+body.touch a:hover {
+	border-bottom:0;
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 767px) {
+
+	#wrapper {
+		width:470px;
+	    padding: 18px;
+	}
+	.butt {
+	    display:block;
+	    width:45%;
+	}
+}
+
+@media (max-width: 480px) {
+
+	#wrapper {
+		width:100%;
+	}
+	.butt {
+	    width:90%;
+	}
+	.front-page {
+	    text-align: center;
+	    font-size: 20px;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+}
