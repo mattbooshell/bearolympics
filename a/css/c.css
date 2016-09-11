@@ -19,12 +19,16 @@ html {
     width:100%;
     width:100vw;
 }
+body.loading {
+  overflow:hidden;
+  position:fixed;
+}
 body {
-    font-family: 'Courier Final Draft', 'Courier Screenplay', Courier;
-    font-size: 18px;
-    text-align: center;
-	color:#38332f;
-	background-color:#efefef;
+  font-family: 'Courier Final Draft', 'Courier Screenplay', Courier;
+  font-size: 18px;
+  text-align: center;
+  color:#38332f;
+  background-color:#dddad5;
 }
 #wrapper {
     text-align: left;
@@ -33,7 +37,60 @@ body {
     position: relative;
     margin:0 auto;
     margin-top: 90px;
-    background-color: #efefef;
+    background-color: #dddad5;
+}
+.top-message1,
+.top-message2 {
+  display:none;
+  cursor:default;
+  -webkit-user-select: none;
+   -khtml-user-select: none;
+     -moz-user-select: none;
+     -o-user-select: none;
+      user-select: none;
+}
+body.message1 .top-message1 {
+  display:inline-block;
+}
+body.message2 .top-message2 {
+  display:inline-block;
+}
+.load {
+  height:100vh;
+  height:100%;
+  width:100vw;
+  width:100%;
+  z-index:11;
+  display:none;
+  color:#dddad5;
+  position:fixed;
+  background-color:#38332f;
+  background-position: center center;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+        background-size: cover;
+}
+body.loading .load {
+  display:inline;
+  overflow-y:hidden;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.load .top-message1,
+.load .top-message2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+    letter-spacing: 3px;
+  transform: translate(-50%, -50%);
+  font-size:36px;
+  text-align:center;
+  text-transform:uppercase;
+  line-height:36px;
 }
 header {
     margin-bottom: 1em;
@@ -75,39 +132,6 @@ h5 {
     border-top: dotted 1px rgb(199, 199, 199);
     background-image: -webkit-linear-gradient(top, rgb(255, 255, 245), rgb(255, 255, 255));
     font-size: 11px;
-}
-h1,
-.h1-synopsis {
-    margin-left: -71px;
-}
-h2,
-.h2-synopsis {
-    margin-left: -61px;
-}
-h3,
-.h3-synopsis {
-    margin-left: -41px;
-}
-h4,
-.h4-synopsis {
-    margin-left: -21px;
-}
-h5,
-.h5-synopsis {
-    margin-left: -1px;
-}
-.h1-synopsis,
-.h2-synopsis,
-.h3-synopsis,
-.h4-synopsis,
-.h5-synopsis,
-.h6-synopsis {
-    font-family: 'Gill Sans', 'Helvetiva Neue', Helvetica, sans-serif;
-    font-size: 10px;
-    font-style: italic;
-    color: rgb(145, 145, 145);
-    display: block;
-    margin-bottom: 5px;
 }
 h6 {
     margin-top: 2em;

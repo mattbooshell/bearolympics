@@ -4,6 +4,14 @@ body.touch a:hover {
 
 @media (min-width: 1200px) {
 
+	.load .top-message1,
+	.load .top-message2 {
+		font-size:63px;
+		text-align:center;
+		text-transform:uppercase;
+		line-height:63px;
+	}
+
 }
 
 @media (max-width: 767px) {
