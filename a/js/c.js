@@ -5,16 +5,16 @@ jQuery(document).ready(function() {
 
     setTimeout(function(){
         jQuery('body').removeClass('loading');
-    }, 9000);
+    }, 5400);
     setTimeout(function(){
         jQuery('body').removeClass('message1');
-    }, 4500);
+    }, 2700);
     setTimeout(function(){
         jQuery('body').addClass('message2');
-    }, 4500);
+    }, 2700);
     setTimeout(function(){
         jQuery('body').removeClass('message2');
-    }, 9001);
+    }, 5401);
 
     for (var i = 1; i <= 99; i++) {
       bindClick(i);
