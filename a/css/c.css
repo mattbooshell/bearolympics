@@ -146,6 +146,20 @@ div.scene {
     text-decoration:underline;
     font-weight:bold;
 }
+div.song {
+    margin-top: 1em;
+    text-transform:uppercase;
+    text-decoration:underline;
+    font-weight:bold;
+}
+div.song::before {
+  content:"(";
+  text-decoration:none;
+}
+div.song::after {
+  content:")";
+  text-decoration:none;
+}
 div.action p {
     margin-top: 1em;
 }
