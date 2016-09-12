@@ -5,7 +5,7 @@ jQuery(document).ready(function() {
 
     setTimeout(function(){
         jQuery('body').removeClass('loading');
-    }, 5400);
+    }, 6300);
     setTimeout(function(){
         jQuery('body').removeClass('message1');
     }, 2700);
@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
     }, 2700);
     setTimeout(function(){
         jQuery('body').removeClass('message2');
-    }, 5401);
+    }, 6301);
 
     for (var i = 1; i <= 99; i++) {
       bindClick(i);
