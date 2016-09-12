@@ -285,6 +285,16 @@ span.scnumr {
 .front-page p {
     margin-bottom:30px;
 }
+.front-legal {
+  position: absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  text-align: center;
+}
+.front-legal p {
+  font-size:9px;
+}
 .soundtrack-page {  
     text-align:center;
     font-size:30px;
@@ -300,13 +310,11 @@ span.scnumr {
 }
 .front-buttons {
     margin: 90px auto;
-    width: 63%;
 }
 .butt {
     display:inline;
     background-color: #38332f;
     color: #dddad5;
-    width:27%;
     font-size:18px;
     text-transform:uppercase;
     margin:18px;
