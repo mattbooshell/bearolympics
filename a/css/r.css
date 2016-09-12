@@ -28,11 +28,10 @@ body.touch a:hover {
 	}
 	.butt {
 	    display:block;
-	    width:54%;
         margin: 36px auto;
 	}
 	.front-buttons {
-	    margin: 72px auto;
+	    margin: 54px auto;
 	    width: 63%;
 	}
 	.bear-player {
@@ -62,7 +61,6 @@ body.touch a:hover {
 	    padding: 18px;
 	}
 	.butt {
-	    width:90%;
 	    margin: 20px auto;
         padding: 6px 18px;
 	}
