@@ -305,7 +305,10 @@ span.scnumr {
     color:#38332f;
     padding:0 18px;
 }
-
+.bear-player {
+  width:720px;
+  margin:0 auto;
+}
 
 //-----------------------------------------------*/
 /* SOUNDCLOUD PLAYER *

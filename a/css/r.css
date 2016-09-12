@@ -35,6 +35,9 @@ body.touch a:hover {
 	    margin: 72px auto;
 	    width: 63%;
 	}
+	.bear-player {
+	  width:100%;
+	}
 }
 
 @media (max-width: 530px) {
