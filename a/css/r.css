@@ -42,7 +42,8 @@ body.touch a:hover {
 	body {
 		padding: 10px;
 	}
-	body.index {
+	body.index,
+	body.soundtrack {
 		padding:0;
 	}
 	body.index p {
