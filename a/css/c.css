@@ -210,6 +210,17 @@ div.transition {
 .dual .right p.character {
     padding-left: 6em;
 }
+.page-number {
+  text-align:right;
+  margin: 2em 0;
+}
+.page-number::after {
+  content:".";
+}
+.page-number::before {
+  content:"(continued)";
+  display:block;
+}
 span.scnuml {
     display: block;
     float: left;
