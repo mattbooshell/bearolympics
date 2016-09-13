@@ -217,10 +217,6 @@ div.transition {
 .page-number::after {
   content:".";
 }
-.page-number::before {
-  content:"(continued)";
-  display:block;
-}
 span.scnuml {
     display: block;
     float: left;
@@ -283,7 +279,7 @@ span.scnumr {
             transform: translateY(-50%);
 }
 .front-page p {
-    margin-bottom:30px;
+    margin-bottom:18px;
 }
 .front-legal {
   position: absolute;
@@ -309,7 +305,7 @@ span.scnumr {
     width: 63%;
 }
 .front-buttons {
-    margin: 90px auto;
+    margin: 54px auto;
 }
 .butt {
     display:inline-block;
