@@ -312,13 +312,16 @@ span.scnumr {
     margin: 90px auto;
 }
 .butt {
-    display:inline;
+    display:inline-block;
     background-color: #38332f;
     color: #dddad5;
     font-size:18px;
     text-transform:uppercase;
     margin:18px;
     padding: 9px 18px;
+}
+.butt-text {
+    margin: 0 auto;
 }
 .front-page a i {
     color:#38332f;
