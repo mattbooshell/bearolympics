@@ -545,11 +545,11 @@
           updateTrackInfo($player, tracks[0]);
 
           // if continous play enabled always skip to the next track after one finishes
-          if (opts.continuePlayback) {
+          /*if (opts.continuePlayback) {
             $player.bind('onPlayerTrackFinish', function(event) {
               onSkip($player);
             });
-          }
+          }*/
 
           // announce the succesful initialization
           $player
